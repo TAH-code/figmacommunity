@@ -1,0 +1,15 @@
+{
+  "name": "figmacommunity",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "explore": "node explore-bugs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}

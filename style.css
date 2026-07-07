@@ -189,22 +189,21 @@ h2.center {
 .hero-media {
   position: relative;
   display: flex;
+  align-items: center;
   justify-content: center;
+  aspect-ratio: 5 / 6;
 }
 
 .hero-img {
   position: relative;
   z-index: 1;
-  width: 80%;
+  width: 78%;
   border-radius: 24px;
 }
 
 .blob {
   position: absolute;
-  top: 5%;
-  left: 10%;
-  width: 85%;
-  height: 90%;
+  inset: 0;
   background: var(--cream);
   border-radius: 40% 60% 55% 45% / 55% 45% 60% 40%;
   z-index: 0;
